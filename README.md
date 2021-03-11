@@ -5,18 +5,19 @@
 
 
 ## Setup
-To run this project, install it locally using npm:
 
-``` 
-$ npm install
-$ npm start
-```
 Create an .env file and store the below variables into it.
 ``` 
 APPLICATIONPORT=3003
 MONGOCONNECTIONSTRING=mongodb://localhost:27017/fileuploadDB
 ```
 
+Install it locally using npm and do npm start as defined below:
+
+``` 
+$ npm install
+$ npm start
+```
 ## Screenshots
 Image upload using the spcified mandatory body information.
 ![Image upload](./screenshots/filetoupload.png)
